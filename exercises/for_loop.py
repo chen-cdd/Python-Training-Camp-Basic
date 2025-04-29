@@ -18,4 +18,8 @@ def sum_numbers(n):
     - 从1到n的所有整数之和
     """
     # 请在下方编写代码
+    total_sum = 0  # 初始化总和为0
+    for i in range(1, n + 1):  # 遍历从1到n的整数
+        total_sum += i  # 将当前数字加到总和上
+    return total_sum  # 返回计算得到的总和
     pass 
